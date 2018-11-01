@@ -30,3 +30,5 @@ document.querySelector("ul li").style.color = "blue";
 document.querySelector("li:last-child").style.color = "yellow";
 document.querySelector("li:nth-child(3)").style.color = "grey";
 document.querySelector("li:nth-child(4)").textContent = "Hello World";
+document.querySelector("li:nth-child(odd)").style.background = "#ccc";
+document.querySelector("li:nth-child(even)").style.background = "#ccc";
